@@ -15,7 +15,7 @@ export default function Users() {
     const fetchUsers = async () => {
       setIsLoading(true);
 
-      const res = await fetch("https://randomuser.me/api/?results=50");
+      const res = await fetch("https://randomuser.me/api/?results=20");
       const data = await res.json();
       setUsers(data.results);
       setIsLoading(false);

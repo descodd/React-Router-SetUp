@@ -30,7 +30,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/users" element={<Users />} />
           <Route path="/notfound-404" element={<NotFound404 />} />
-          <Route path="*" element={<Navigate to="/not-found404" />} />
+          <Route path="*" element={<Navigate to="/notfound-404" />} />
         </Routes>
       </Router>
     </div>
